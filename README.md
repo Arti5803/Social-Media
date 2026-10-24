@@ -1,16 +1,68 @@
-# React + Vite
+# React Social Media App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple social media application built with React as part of my React learning journey. This project helped me practice React hooks, Context API, and fetching data from an API.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **API Data Fetching:** Fetches data from a dummy API.
+- **Loading State:** Displays a loading state while data is being fetched.
+- **State Management:** Uses `useState` to manage component state.
+- **Side Effects:** Uses `useEffect` to handle API fetching and other side effects.
+- **Context API:** Uses `useContext` to share data between components.
+- **Component-Based Structure:** Organizes the UI into reusable React components.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- Vite
+- Bootstrap / CSS
+- Dummy API
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clone the repository
+
+```bash
+git clone YOUR_REPOSITORY_URL
+```
+
+### 2. Navigate to the project folder
+
+```bash
+cd react-social-media
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in your terminal to view the application.
+
+## What I Learned
+
+While building this project, I practiced:
+
+- Using React hooks such as `useState`, `useEffect`, and `useContext`.
+- Fetching and displaying data from an API.
+- Managing loading states.
+- Sharing state across components using Context API.
+- Building a React application by combining multiple concepts.
+
+## Future Improvements
+
+- Add more interactive features.
+- Improve the UI and responsiveness.
+- Add additional social media functionality.
+
+---
+
+**Note:** This is a learning project built to practice React concepts. I plan to improve it as I continue learning and building projects.
