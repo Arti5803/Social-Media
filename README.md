@@ -24,7 +24,7 @@ A simple social media application built with React as part of my React learning 
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/Arti5803/Social-Media.git
 ```
 
 ### 2. Navigate to the project folder
